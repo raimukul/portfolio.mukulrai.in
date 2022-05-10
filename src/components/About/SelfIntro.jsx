@@ -12,8 +12,8 @@ export default function SelfIntro() {
               Hi Everyone, I am <span className="purple">Mukul Rai </span>
               from{" "}
               <span className="purple"> Greater Noida, Uttar Pradesh, IN.</span>
-              <br />I am pursuing master's in Artificial Intelligence &
-              Robotics in Gautam Buddha University.
+              <br />I am pursuing master's in Artificial Intelligence & Robotics
+              in Gautam Buddha University.
               <br />
               <br />
               Apart from coding, some other activities that I love to do!
@@ -29,7 +29,6 @@ export default function SelfIntro() {
                 <ImPointRight /> Designing UI components
               </li>
             </ul>
-
             <p style={{ color: "rgb(155 126 172)" }}>
               "Strive to build things that make a difference!"{" "}
             </p>

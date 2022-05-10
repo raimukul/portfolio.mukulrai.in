@@ -1,6 +1,11 @@
 import React from "react";
 import Particle from "../Particle";
 import SelfIntro from "./SelfIntro";
+import ProSkillSet from "./ProSkillSet";
+import ToolUse from "./ToolUse";
+import GithubHistroy from "./GithubHistroy";
+import laptopImg from "../../Assets/about.png";
+import { Col, Container, Row } from "react-bootstrap";
 
 export default function About() {
   return (
@@ -33,16 +38,13 @@ export default function About() {
           <h1 className="project-heading">
             Professional <strong className="purple">Skillset </strong>
           </h1>
-
-          <Techstack />
-
+          <ProSkillSet />
           <h1 className="project-heading">
             <strong className="purple">Tools</strong> I use
           </h1>
-          <Toolstack />
-
-          <Github />
+          <ToolUse />
         </Container>
+        <GithubHistroy/>
       </Container>
     </div>
   );
