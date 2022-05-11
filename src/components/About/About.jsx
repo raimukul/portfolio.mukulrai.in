@@ -1,5 +1,4 @@
 import React from "react";
-import Particle from "../Particle";
 import SelfIntro from "./SelfIntro";
 import ProSkillSet from "./ProSkillSet";
 import ToolUse from "./ToolUse";
@@ -11,7 +10,6 @@ export default function About() {
   return (
     <div>
       <Container fluid className="about-section">
-        <Particle />
         <Container>
           <Row style={{ justifyContent: "center", padding: "10px" }}>
             <Col
