@@ -3,7 +3,6 @@ import SelfIntro from "./SelfIntro";
 import ProSkillSet from "./ProSkillSet";
 import ToolUse from "./ToolUse";
 import GithubHistroy from "./GithubHistroy";
-import laptopImg from "../../Assets/about.png";
 import { Col, Container, Row } from "react-bootstrap";
 
 export default function About() {
@@ -25,14 +24,16 @@ export default function About() {
               </h1>
               <SelfIntro />
             </Col>
+            
             <Col
               md={5}
               style={{ paddingTop: "120px", paddingBottom: "50px" }}
               className="about-img"
             >
-              <img src={laptopImg} alt="about" className="img-fluid" />
+              <img src='./img/developer.svg' alt="about" className="img-fluid" />
             </Col>
           </Row>
+          <GithubHistroy/>
           <h1 className="project-heading">
             Professional <strong className="purple">Skillset </strong>
           </h1>
@@ -42,7 +43,7 @@ export default function About() {
           </h1>
           <ToolUse />
         </Container>
-        <GithubHistroy/>
+       
       </Container>
     </div>
   );

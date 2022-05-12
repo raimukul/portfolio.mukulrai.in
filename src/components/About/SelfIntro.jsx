@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { ImNext } from "react-icons/im";
 
 export default function SelfIntro() {
   return (
@@ -20,19 +20,19 @@ export default function SelfIntro() {
             </p>
             <ul>
               <li className="about-activity">
-                <ImPointRight /> Teaching Physics
+                <ImNext /> Teaching Physics
               </li>
               <li className="about-activity">
-                <ImPointRight /> Writting Tech Blogs
+                <ImNext /> Writting Tech Blogs
               </li>
               <li className="about-activity">
-                <ImPointRight /> Designing UI components
+                <ImNext /> Designing UI components
               </li>
             </ul>
-            <p style={{ color: "rgb(155 126 172)" }}>
+            {/* <p style={{ color: "rgb(155 126 172)" }}>
               "Strive to build things that make a difference!"{" "}
             </p>
-            <footer className="blockquote-footer">Soumyajit</footer>
+            <footer className="blockquote-footer">Soumyajit</footer> */}
           </blockquote>
         </Card.Body>
       </Card>

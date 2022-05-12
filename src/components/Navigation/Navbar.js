@@ -64,7 +64,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> About me
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -76,7 +76,7 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                My Projects
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -85,7 +85,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <CgFileDocument style={{ marginBottom: "2px" }} /> My Resume
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -94,7 +94,7 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <ImBlog style={{ marginBottom: "2px" }} /> My Blogs
               </Nav.Link>
             </Nav.Item>
 
