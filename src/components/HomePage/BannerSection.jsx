@@ -11,7 +11,7 @@ export default function BannerSection() {
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Namaste Viewer!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
+                <span className="wave text-lg-center" role="img" aria-labelledby="wave">
                   🙏
                 </span>
               </h1>
