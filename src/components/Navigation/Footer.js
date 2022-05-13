@@ -15,7 +15,12 @@ export default function Footer() {
       <Container fluid className="footer">
         <Row>
           <Col md="4" className="footer-copywright">
-            <h3>Designed and Developed by Mukul Rai</h3>
+          <a
+                href="mailto:gbu.mukul@gmail.com"
+                style={{ color: "white", textDecoration:"none" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              ><h3>Email to mukul</h3></a>
           </Col>
           <Col md="4" className="footer-copywright">
             <h3>Copyright © {year} mukulrai.in</h3>
