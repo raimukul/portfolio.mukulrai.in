@@ -102,10 +102,9 @@ function NavBar() {
               <Button
                 href="https://github.com/raimukul"
                 target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+              > <AiFillStar style={{ fontSize: "1.1em" }} /> Rate me 
+                
+               
               </Button>
             </Nav.Item>
           </Nav>
